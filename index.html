@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display|Overlock:900|Lato:900|Alegreya+Sans:800&display=swap" rel="stylesheet">
+    <title>🌎 World News</title>
+</head>
+<body>
+    <form>
+        <header>
+            <nav class="main-nav">
+                <div action="" class="country">
+                    <ul class="main-menu">
+                        <li class="north-america typewriter">
+                            <a href="#"><h3>North America</h3></a>
+                            <ul class="sub-menu north-america">
+                                <li>
+                                    <input type="radio" id="countryChoice1" name="country" value="ca">
+                                    <label for="countryChoice1"><img src="assets/ca.svg" alt="canadian flag" name="canada">Canada</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice2" name="country" value="cu">
+                                    <label for="countryChoice2"><img src="assets/cu.svg" alt="cuban flag" name="cuba">Cuba</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice3" name="country" value="mx">
+                                    <label for="countryChoice3"><img src="assets/mx.svg" alt="mexican flag" name="mexico">Mexico</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice4" name="country" value="us">
+                                    <label for="countryChoice4"><img src="assets/us.svg" alt="us flag" name="united-states">United States</label>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="europe typewriter">
+                            <a href="#"><h3>Europe</h3></a>
+                            <ul class="sub-menu europe">
+                                <li>
+                                    <input type="radio" id="countryChoice5" name="country" value="at">
+                                    <label for="countryChoice5"><img src="assets/at.svg" alt="austrian flag">Austria</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice6" name="country" value="be">
+                                    <label for="countryChoice6"><img src="assets/be.svg" alt="belgium flag">Belgium</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice7" name="country" value="bg">
+                                    <label for="countryChoice7"><img src="assets/bg.svg" alt="bulgarian flag">Bulgaria</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice8" name="country" value="cz">
+                                    <label for="countryChoice8"><img src="assets/cz.svg" alt="czech flag">Czech Republic</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice9" name="country" value="fr">
+                                    <label for="countryChoice9"><img src="assets/fr.svg" alt="french flag">France</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice10" name="country" value="de">
+                                    <label for="countryChoice10"><img src="assets/de.svg" alt="german flag">Germany</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice11" name="country" value="gr">
+                                    <label for="countryChoice11"><img src="assets/gr.svg" alt="greek flag">Greece</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice12" name="country" value="hu">
+                                    <label for="countryChoice12"><img src="assets/hu.svg" alt="hungarian flag">Hungary</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice13" name="country" value="ie">
+                                    <label for="countryChoice13"><img src="assets/ie.svg" alt="irish flag">Ireland</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice14" name="country" value="it">
+                                    <label for="countryChoice14"><img src="assets/it.svg" alt="italian flag">Italy</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice15" name="country" value="lv">
+                                    <label for="countryChoice15"><img src="assets/lv.svg" alt="latvian flag">Latvia</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice16" name="country" value="lt">
+                                    <label for="countryChoice16"><img src="assets/lt.svg" alt="flag of lithuania">Lithuania</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice17" name="country" value="nl">
+                                    <label for="countryChoice17"><img src="assets/nl.svg" alt="nertherlands flag">Netherlands</label></li>
+                                <li>
+                                    <input type="radio" id="countryChoice18" name="country" value="no">
+                                    <label for="countryChoice18"><img src="assets/no.svg" alt="norwegian flag">Norway</label></li>
+                                <li>
+                                    <input type="radio" id="countryChoice19" name="country" value="pl">
+                                    <label for="countryChoice19"><img src="assets/pl.svg" alt="polish flag">Poland</label></li>
+                                <li>
+                                    <input type="radio" id="countryChoice20" name="country" value="pt">
+                                    <label for="countryChoice20"><img src="assets/pt.svg" alt="portugese flag">Portugal</label></li>
+                                <li>
+                                    <input type="radio" id="countryChoice21" name="country" value="ro">
+                                    <label for="countryChoice21"><img src="assets/ro.svg" alt="romanian flag">Romania</label></li>
+                                <li>
+                                    <input type="radio" id="countryChoice22" name="country" value="ru">
+                                    <label for="countryChoice22"><img src="assets/ru.svg" alt="russian flag">Russia</label></li>
+                                <li>
+                                    <input type="radio" id="countryChoice23" name="country" value="rs">
+                                    <label for="countryChoice23"><img src="assets/rs.svg" alt="serbian flag">Serbia</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice24" name="country" value="sk">
+                                    <label for="countryChoice24"><img src="assets/sk.svg" alt="slovakian flag">Slovakia</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice4" name="country" value="si">
+                                    <label for="countryChoice24"><img src="assets/si.svg" alt="flag of slovenia">Slovenia</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice25" name="country" value="sweden">
+                                    <label for="countryChoice25"><img src="assets/se.svg" alt="swedish flag">Sweden</label></li>
+                                <li>
+                                    <input type="radio" id="countryChoice26" name="country" value="switzerland">
+                                    <label for="countryChoice26"><img src="assets/ch.svg" alt="switzerland flag">Switzerland</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice27" name="country" value="tr">
+                                    <label for="countryChoice27"><img src="assets/tr.svg" alt="turkey flag">Turkey</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice28" name="country" value="ua">
+                                    <label for="countryChoice28"><img src="assets/ua.svg" alt="flag of ukraine">Ukraine</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice29" name="country" value="gb">
+                                    <label for="countryChoice29"><img src="assets/gb.svg" alt="flag for the uk">United Kingdom</label>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="asia typewriter">
+                            <a href="#"><h3>Asia</h3></a>
+                            <ul class="sub-menu asia">
+                                <li>
+                                    <input type="radio" id="countryChoice30" name="country" value="cn">
+                                    <label for="countryChoice30"><img src="assets/cn.svg" alt="chinese flag">China</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice31" name="country" value="hk">
+                                    <label for="countryChoice31"><img src="assets/hk.svg" alt="flag of hong kong">Hong Kong</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice32" name="country" value="in">
+                                    <label for="countryChoice32"><img src="assets/in.svg" alt="flag of India">India</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice33" name="country" value="id">
+                                    <label for="countryChoice33"><img src="assets/id.svg" alt="indonesian flag">Indonesia</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice34" name="country" value="il">
+                                    <label for="countryChoice34"><img src="assets/il.svg" alt="israli flag">Israel</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice35" name="country" value="jp">
+                                    <label for="countryChoice35"><img src="assets/jp.svg" alt="japanese flag">Japan</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice36" name="country" value="my">
+                                    <label for="countryChoice36"><img src="assets/my.svg" alt="flag of malaysia">Malaysia</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice37" name="country" value="ph">
+                                    <label for="countryChoice37"><img src="assets/ph.svg" alt="philippino flag">Philippines</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice38" name="country" value="ru">
+                                    <label for="countryChoice38"><img src="assets/ru.svg" alt="russian flag">Russia</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice39" name="country" value="sa">
+                                    <label for="countryChoice39"><img src="assets/sa.svg" alt="saudi arabian flag">Saudi Arabia</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice40" name="country" value="sg">
+                                    <label for="countryChoice40"><img src="assets/sg.svg" alt="singaporean flag">Singapore</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice41" name="country" value="kr">
+                                    <label for="countryChoice41"><img src="assets/kr.svg" alt="south korean flag">South Korea</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice42" name="country" value="tw">
+                                    <label for="countryChoice42"><img src="assets/tw.svg" alt="taiwanese flag">Taiwan</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice43" name="country" value="th">
+                                    <label for="countryChoice43"><img src="assets/th.svg" alt="thailand flag">Thailand</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice44" name="country" value="ae">
+                                    <label for="countryChoice44"><img src="assets/ae.svg" alt="flag of uae">UAE</label>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="south-america typewriter">
+                            <a href="#"><h3>South America</h3></a>
+                            <ul class="sub-menu south-america">
+                                <li>
+                                    <input type="radio" id="countryChoice45" name="country" value="ar">
+                                    <label for="countryChoice45"><img src="assets/ar.svg" alt="flag of argentina">Argentina</label></li>
+                                <li>
+                                    <input type="radio" id="countryChoice46" name="country" value="br">
+                                    <label for="countryChoice46"><img src="assets/br.svg" alt="brazilian flag">Brazil</label></li>
+                                <li>
+                                    <input type="radio" id="countryChoice47" name="country" value="co">
+                                    <label for="countryChoice47"><img src="assets/co.svg" alt="columbian flag">Columbia</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice48" name="country" value="ve">
+                                    <label for="countryChoice48"><img src="assets/ve.svg" alt="venuzuelan flag">Venuzuela</label>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="africa typewriter">
+                            <a href="#"><h3>Africa</h3></a>
+                            <ul class="sub-menu africa">
+                                <li>
+                                    <input type="radio" id="countryChoice49" name="country" value="eg">
+                                    <label for="countryChoice49"><img src="assets/eg.svg" alt="egytian flag">Egypt</label></li>
+                                <li>
+                                    <input type="radio" id="countryChoice50" name="country" value="ma">
+                                    <label for="countryChoice50"><img src="assets/ma.svg" alt="moroccan flag">Morrocco</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="countryChoice51" name="country" value="ng">
+                                    <label for="countryChoice51"><img src="assets/ng.svg" alt="nigerian flag">Nigeria</label></li>
+                                <li>
+                                    <input type="radio" id="countryChoice52" name="country" value="za">
+                                    <label for="countryChoice52"><img src="assets/za.svg" alt="south african flag">South Africa</label>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="oceania typewriter">
+                            <a href="#"><h3>Oceania</h3></a>
+                            <ul class="sub-menu oceania">
+                                <li>
+                                    <input type="radio" id="countryChoice53" name="country" value="au">
+                                    <label for="countryChoice53"><img src="assets/au.svg" alt="australian flag">Australia</label></li>
+                                <li>
+                                    <input type="radio" id="countryChoice54" name="country" value="nz">
+                                    <label for="countryChoice54"><img src="assets/nz.svg" alt="new zealand flag">New Zealand</label>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+            <main class="wrapper">
+                <section id="topic" class="topic">
+                    <div class="category">         
+                        <input type="radio" id="categoryChoice1" name="category" value="general">
+                        <label for="categoryChoice1">General</label>
+                        <input type="radio" id="categoryChoice2" name="category" value="business">
+                        <label for="categoryChoice2">Business</label>   
+                        <input type="radio" id="categoryChoice3" name="category" value="science">
+                        <label for="categoryChoice3">Science</label>  
+                        <input type="radio" id="categoryChoice4" name="category" value="technology">
+                        <label for="categoryChoice4">Tech.</label>       
+                        <input type="radio" id="categoryChoice5" name="category" value="sports">
+                        <label for="categoryChoice5">Sports</label>    
+                        <input type="radio" id="categoryChoice6" name="category" value="entertainment">
+                        <label for="categoryChoice6">Culture</label>  
+                        <input type="radio" id="categoryChoice7" name="category" value="health">
+                        <label for="categoryChoice7">Health</label>
+                    </div>
+                    <div class="title-bar">
+                        <h1>Top Stories</h1>
+                        <div class="search-bar">
+                            <input type="text" placeholder="keyword">
+                            <input type="submit" value="search">
+                        </div>
+                    </div>
+                </section>
+                <section id="results" class="results">
+                    <div class="instructions">
+                        <p>Click the search button to retreive your articles. You can pick a topic above and/or enter in a keyword in the text bar to refine your search.</p>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </form>
+    <footer>
+        <p>Powered by <a href="https://newsapi.org/">News API</a></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
