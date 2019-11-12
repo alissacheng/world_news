@@ -301,6 +301,7 @@ input[type='text'] {
     padding-top: 2%;
     padding-left: 1%;
     padding-right: 1%;
+    transition-duration: 0.5s;
 }
 
 .article-title{
@@ -317,15 +318,11 @@ input[type='text'] {
 
 .results-container img {
     width: 100%;
-    transition-duration: 0.5s;
 }
 
-.results-container:hover img,
-.results-container:focus img{
-    position: relative;
-    width: 98%;
-    left: 1%;
-    right: 1%;
+.results-container:hover,
+.results-container:focus{
+    transform: scale(0.97);
 }
 
 .instructions{
