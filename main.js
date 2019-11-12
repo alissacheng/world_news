@@ -46,6 +46,8 @@ newsApp.getSelectedVal = function(){
         $(".results").empty();
 
         newsApp.getNews();
+        
+        $("input[type=text]").val(" ");
 
         //update flag icon on news title bar
         const countrySelected = $("input[name='country']:checked").val();
